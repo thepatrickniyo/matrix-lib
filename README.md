@@ -1,5 +1,3 @@
-# alumath_peergroup_6
-
 A comprehensive Python library for matrix multiplication with support for different dimensions and broadcasting.
 
 ## Features
@@ -14,9 +12,9 @@ A comprehensive Python library for matrix multiplication with support for differ
 
 ## Installation
 
-\`\`\`bash
+```bash
 pip install alumath_peergroup_6
-\`\`\`
+```
 
 ## Quick Start
 
@@ -34,8 +32,18 @@ print(result)
 # Element-wise multiplication
 result = multiply(matrix_a, matrix_b, method="hadamard")
 print(result)
+```
+----
 
-# Broadcasting multiplication
-scalar = Matrix([[2]])
-result = multiply(matrix_a, scalar, method="broadcast")
-print(result)
+## Source codes
+
+The library source codes are available on the repo below
+
+[https://github.com/idarapatrick/matrix-multiplication-package](https://github.com/idarapatrick/matrix-multiplication-package)
+
+## Library Documentation
+
+The library is up on both  [python.org](https://python.org) and test pi and can be installed with Python Manager
+
+- [https://pypi.org/project/alumath-peergroup-6/1.0.0/](https://pypi.org/project/alumath-peergroup-6/1.0.0/)
+- [https://test.pypi.org/project/alumath-peergroup-6/1.0.0/]()
